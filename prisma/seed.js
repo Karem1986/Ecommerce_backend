@@ -10,7 +10,7 @@ const items = [
     image:
       'https://images.wehkamp.nl/i/wehkamp/16772775_eb_04/graceland-handtas-lichtbruin-lichtbruin-4063871391338.jpg?w=792',
     soldCount: 97,
-    favoriites: 5,
+    favoriites: 45,
   },
   {
     name: 'Casual pretty dress',
@@ -20,7 +20,7 @@ const items = [
     image:
       'https://cdn-img.prettylittlething.com/c/9/9/5/c9950fa776323cd77967cff944ab80686ed6b5e4_cmp3263_1.jpg?imwidth=1024',
     soldCount: 29,
-    favoriites: 5,
+    favoriites: 17,
   },
   {
     name: 'Wonder eyebrows tint',
@@ -29,7 +29,7 @@ const items = [
     review:
       'This is the best tint for eyebrows I have ever gotten and it stays very long.',
     image: 'https://media.s-bol.com/YQExZEwYor8A/1200x748.jpg',
-    soldCount: 29,
+    soldCount: 3,
     favoriites: 5,
   },
 ];
