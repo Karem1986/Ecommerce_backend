@@ -18,7 +18,7 @@ export default async (req, res) => {
     orderBy: {
       soldCount: 'desc',
     },
-    take: 3, //only returns the first 3.
+    take: 2, //only returns the first 3.
     select: {
       id: true,
       name: true,
@@ -39,7 +39,7 @@ export default async (req, res) => {
     orderBy: {
       favoriites: 'desc',
     },
-    take: 3,
+    take: 2,
     select: {
       id: true,
       name: true,
