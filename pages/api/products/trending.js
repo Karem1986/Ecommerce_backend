@@ -1,7 +1,7 @@
 //To insteract with the database:
 import prisma from '../../../util/prisma';
 
-//This is the endpoint for our products shop
+//This is the endpoint for 'products' shop
 export default async (req, res) => {
   if (req.method !== 'GET') {
     return res
