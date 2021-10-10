@@ -20,6 +20,8 @@ export default async (req, res) => {
           image: true,
           price: true,
           review: true,
+          favoriites: true,
+          soldCount: true,
         },
       },
     },

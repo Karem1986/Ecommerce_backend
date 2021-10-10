@@ -18,9 +18,12 @@ export default async (req, res) => {
     select: {
       id: true,
       name: true,
-      image: true,
       price: true,
       description: true,
+      review: true,
+      image: true,
+      soldCount: true,
+      favoriites: true,
     },
   });
 

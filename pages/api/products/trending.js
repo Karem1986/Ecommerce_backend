@@ -27,6 +27,7 @@ export default async (req, res) => {
       description: true,
       review: true,
       favoriites: true,
+      soldCount: true,
     },
   });
   //find by popularity(favoriites):
@@ -48,6 +49,7 @@ export default async (req, res) => {
       description: true,
       review: true,
       favoriites: true,
+      soldCount: true,
     },
   });
   const newItems = await prisma.product.findMany({
@@ -61,6 +63,9 @@ export default async (req, res) => {
       image: true,
       price: true,
       description: true,
+      review: true,
+      favoriites: true,
+      soldCount: true,
     },
   });
 
