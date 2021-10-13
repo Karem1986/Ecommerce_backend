@@ -11,6 +11,7 @@ export default async (req, res) => {
 
   // console.log(req.body.cart);
   const cart = req?.body?.cart || {};
+  console.log('CART', cart);
   const productIds = Object.keys(cart);
   const products = await prisma.product.findMany({
     where: {
@@ -30,7 +31,7 @@ export default async (req, res) => {
     total += product.price * cart[product.id].quantity;
   });
   console.log('TOTAL', total);
-  // payment intent
+  // Stripe payment intent
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
     currency: 'usd',
